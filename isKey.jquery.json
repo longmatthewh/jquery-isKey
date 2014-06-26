@@ -1,0 +1,27 @@
+{
+    "name": "isKey",
+    "title": "jQuery.isKey",
+    "description": "This is a simple utility for determining which key triggered a jQuery event.",
+    "keywords": [
+        "accessibility",
+        "a11y",
+        "keyboard",
+        "navigation"
+    ],
+    "version": "0.0.1",
+    "author": {
+        "name": "Matt Long",
+        "email": "longmatthewh@gmail.com"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/longmatthewh/jquery-isKey/blob/master/license.md"
+        }
+    ],
+    "bugs": "https://github.com/longmatthewh/jquery-isKey/issues",
+    "homepage": "http://longmatthewh.github.io/isKey/",
+    "dependencies": {
+        "jquery": ">=1.11"
+    }
+}
