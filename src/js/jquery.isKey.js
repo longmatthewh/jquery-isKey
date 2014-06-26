@@ -1,23 +1,13 @@
 ;(function ( $, window, document, undefined ) {
-    var PLUGIN_NAME = 'isKey';
 
-    function Plugin( element, options ) {
-        this.element = element;
-        this.init();
+    var ENTER_KEY = 13;
+
+    $.isEnterKey = function($event) {
+        return _isKey($event, ENTER_KEY);
+    };
+
+    function _isKey($event, key) {
+        return $event.which === key;
     }
-
-    Plugin.prototype = {
-        init : function () {
-        }
-    };
-
-    $.fn[PLUGIN_NAME] = function ( options ) {
-        return this.each(function () {
-            if (!$.data(this, 'plugin_' + PLUGIN_NAME)) {
-                $.data(this, 'plugin_' + PLUGIN_NAME,
-                    new Plugin( this, options ));
-            }
-        });
-    };
 
 })( jQuery, window, document );

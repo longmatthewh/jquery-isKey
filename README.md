@@ -1,4 +1,4 @@
-[isKey v0.0.1] [![Build Status](https://travis-ci.org/longmatthewh/jquery-isKey.svg?branch=master)](https://travis-ci.org/longmatthewh/jquery-isKey) [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
+[isKey v1.0.0] [![Build Status](https://travis-ci.org/longmatthewh/jquery-isKey.svg?branch=master)](https://travis-ci.org/longmatthewh/jquery-isKey) [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 ===============
 
 Created and maintained by [Matt Long](https://github.com/longmatthewh).
